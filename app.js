@@ -9,6 +9,10 @@ const app = new App({
   appToken: process.env.APP_TOKEN,
 });
 
+app.message('hello', async ({ message, say }) => {
+  await say(`Hey there <@${message.user}>!`);
+});
+
 (async () => {
   await app.start(process.env.PORT || 3000);
 
