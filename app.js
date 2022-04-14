@@ -5,6 +5,8 @@ require('dotenv').config();
 const app = new App({
   token: process.env.BOT_TOKEN,
   signingSecret: process.env.SIGNING_SECRET,
+  socketMode: true,
+  appToken: process.env.APP_TOKEN,
 });
 
 (async () => {
