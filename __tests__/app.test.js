@@ -11,4 +11,8 @@ describe('BleeprBot routes', () => {
   afterAll(() => {
     pool.end();
   });
+
+  it('should be a passing test', async () => {
+    expect(true).toEqual(true);
+  });
 });
