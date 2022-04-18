@@ -2,6 +2,7 @@ const pool = require('../lib/utils/pool');
 const setup = require('../data/setup');
 const request = require('supertest');
 const app = require('../lib/app');
+// const Violation = require('../models/Violation');
 
 describe('BleeprBot routes', () => {
   beforeEach(() => {
@@ -14,7 +15,7 @@ describe('BleeprBot routes', () => {
 
   it('should insert a violation to the table', async () => {
     const violation = {
-      user_id: 1,
+      user_id: '1',
       comment: 'Fuck you.',
       identity_attack: false,
       insult: true,

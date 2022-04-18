@@ -14,7 +14,6 @@ CREATE TABLE users (
 CREATE TABLE violations (
     id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     user_id BIGINT NOT NULL,
-    FOREIGN KEY (user_id) REFERENCES users (id),
     comment TEXT NOT NULL,
     identity_attack BOOLEAN NOT NULL,
     insult BOOLEAN NOT NULL,
@@ -23,6 +22,7 @@ CREATE TABLE violations (
     sexually_explicit BOOLEAN NOT NULL,
     threat BOOLEAN NOT NULL,
     toxicity BOOLEAN NOT NULL,
+    FOREIGN KEY (user_id) REFERENCES users (id)
 );
 
 CREATE TABLE insults (
