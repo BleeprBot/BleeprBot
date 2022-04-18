@@ -35,7 +35,6 @@
     "@slack/bolt": "3.5",
     "@slack/web-api": "^6.7.1",
     "@tensorflow-models/toxicity": "^1.2.2",
-    "@tensorflow/tfjs": "^3.15.0",
     "@tensorflow/tfjs-node": "^3.15.0",
     "cross-env": "^7.0.3",
     "dotenv": "^16.0.0",
