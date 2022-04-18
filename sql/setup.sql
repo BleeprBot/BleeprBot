@@ -31,3 +31,9 @@ CREATE TABLE insults (
     adjective_2 TEXT NOT NULL,
     noun TEXT NOT NULL
 );
+
+INSERT INTO users(slack_id, is_admin)
+VALUES 
+('U03BU14ULTT', true), 
+('U03BFD3DGNP', true), 
+('U03BHNUGSH2', true);
