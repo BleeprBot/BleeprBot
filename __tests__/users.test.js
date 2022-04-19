@@ -25,7 +25,7 @@ describe('BleeprBot routes', () => {
   it('should insert a new user', async () => {
     const user = {
       slack_id: 'U03BU24ULTT',
-      is_admin: true
+      is_admin: false
     };
 
     const response = await request(app).post('/api/v1/users').send(user);
