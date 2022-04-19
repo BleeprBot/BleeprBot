@@ -18,3 +18,9 @@ jobs:
       env:
         CI: true
         DATABASE_URL: postgres://alchemy:alchemy@postgres:5432/alchemy
+        BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+        CLIENT_ID: ${{ secrets.CLIENT_ID }}
+        CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
+        ADMIN_TOKEN: ${{ secrets.ADMIN_TOKEN }}
+        SIGNING_SECRET: ${{ secrets.SIGNING_SECRET }}
+        APP_TOKEN: ${{ secrets.APP_TOKEN }}
