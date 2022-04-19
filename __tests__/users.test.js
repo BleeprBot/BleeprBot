@@ -24,14 +24,15 @@ describe('BleeprBot routes', () => {
 
   it('should insert a new user', async () => {
     const user = {
-      slack_id: 'U03BU24ULTT',
+      user: 'U03BU24ULTT',
       is_admin: false
     };
 
     const response = await request(app).post('/api/v1/users').send(user);
     expect(response.body).toEqual({
       id: expect.any(String),
-      ...user
+      slack_id: user.user,
+      is_admin: user.is_admin
     });
   });
 });
