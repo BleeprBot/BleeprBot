@@ -41,8 +41,8 @@ VALUES
 INSERT INTO
     insults(adjective_1, adjective_2, noun)
 VALUES
-    ('artless', 'base-court', 'apple-john'),
-    ('bawdy', 'bat-fowling', baggage),
+    (artless, base-court, apple-john),
+    (bawdy, bat-fowling, baggage),
     (beslubbering, beef-witted, barnacle),
     (bootless, beetle-headed, bladder),
     (churlish, boil-brained, boar-pig),
