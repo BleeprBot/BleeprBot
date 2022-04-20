@@ -38,6 +38,31 @@ VALUES
 ('U03BFD3DGNP', true), 
 ('U03BHNUGSH2', true);
 
+INSERT INTO violations(
+  user_id,
+  comment,
+  identity_attack,
+  insult,
+  obscene,
+  severe_toxicity,
+  sexually_explicit,
+  threat,
+  toxicity
+)
+VALUES
+  (1, 'fuck', false, true, true, false, false, false, true),
+  (1, 'fuck', false, true, true, false, false, false, true),
+  (1, 'fuck', false, true, true, false, false, false, true),
+  (2, 'fuck', false, true, true, false, false, false, true),
+  (2, 'fuck', false, true, true, false, false, false, true),
+  (2, 'fuck', false, true, true, false, false, false, true),
+  (3, 'fuck', false, true, true, false, false, false, true),
+  (3, 'fuck', false, true, true, false, false, false, true),
+  (3, 'fuck', false, true, true, false, false, false, true),
+  (3, 'fuck', false, true, true, false, false, false, true),
+  (3, 'fuck', false, true, true, false, false, false, true);
+
+
 INSERT INTO
     insults(adjective_1, adjective_2, noun)
 VALUES
