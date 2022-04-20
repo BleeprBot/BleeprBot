@@ -2,6 +2,7 @@ const pool = require('../lib/utils/pool');
 const setup = require('../data/setup');
 const request = require('supertest');
 const app = require('../lib/app');
+const { computeOutShape } = require('@tensorflow/tfjs/node_modules/@tensorflow/tfjs-core/dist/ops/concat_util');
 
 describe('BleeprBot routes', () => {
   beforeEach(() => {
@@ -34,5 +35,12 @@ describe('BleeprBot routes', () => {
       slack_id: user.user,
       is_admin: user.is_admin
     });
+  });
+
+  it('should update a non-admin user to an admin', async () => {
+   
+    const response = await request(app).patch('/api/v1/users/U03BHNUGSH2').send({ is_admin: true });
+
+    expect(response.body).toEqual({ id: expect.any(String), slack_id: 'U03BHNUGSH2', is_admin: true });
   });
 });
