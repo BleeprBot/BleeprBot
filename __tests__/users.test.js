@@ -35,4 +35,12 @@ describe('BleeprBot routes', () => {
       is_admin: user.is_admin
     });
   });
+
+  it('should update a non-admin user to an admin', async () => {
+    const id = 'U03BHNUGSH2';
+
+    const response = await request(app).patch(`/api/v1/users/${id}`).send();
+
+    expect(response.body).toEqual({ id: expect.any(String), slack_id: 'U03BHNUGSH2', is_admin: true });
+  });
 });

@@ -47,7 +47,32 @@ INSERT INTO users(slack_id, is_admin)
 VALUES 
 ('U03BU14ULTT', true), 
 ('U03BFD3DGNP', true), 
-('U03BHNUGSH2', true);
+('U03BHNUGSH2', false);
+
+INSERT INTO violations(
+  user_id,
+  comment,
+  identity_attack,
+  insult,
+  obscene,
+  severe_toxicity,
+  sexually_explicit,
+  threat,
+  toxicity
+)
+VALUES
+  (1, 'This is a rude comment', false, true, true, false, false, false, true),
+  (1, 'This is a rude comment', false, true, true, false, false, false, true),
+  (1, 'This is a rude comment', false, true, true, false, false, false, true),
+  (2, 'This is a rude comment', false, true, true, false, false, false, true),
+  (2, 'This is a rude comment', false, true, true, false, false, false, true),
+  (2, 'This is a rude comment', false, true, true, false, false, false, true),
+  (3, 'This is a rude comment', false, true, true, false, false, false, true),
+  (3, 'This is a rude comment', false, true, true, false, false, false, true),
+  (3, 'This is a rude comment', false, true, true, false, false, false, true),
+  (3, 'This is a rude comment', false, true, true, false, false, false, true),
+  (3, 'This is a rude comment', false, true, true, false, false, false, true);
+
 
 INSERT INTO
     insults(adjective_1, adjective_2, noun)
