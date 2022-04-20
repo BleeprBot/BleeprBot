@@ -50,17 +50,17 @@ INSERT INTO violations(
   toxicity
 )
 VALUES
-  (1, 'fuck', false, true, true, false, false, false, true),
-  (1, 'fuck', false, true, true, false, false, false, true),
-  (1, 'fuck', false, true, true, false, false, false, true),
-  (2, 'fuck', false, true, true, false, false, false, true),
-  (2, 'fuck', false, true, true, false, false, false, true),
-  (2, 'fuck', false, true, true, false, false, false, true),
-  (3, 'fuck', false, true, true, false, false, false, true),
-  (3, 'fuck', false, true, true, false, false, false, true),
-  (3, 'fuck', false, true, true, false, false, false, true),
-  (3, 'fuck', false, true, true, false, false, false, true),
-  (3, 'fuck', false, true, true, false, false, false, true);
+  (1, 'This is a rude comment', false, true, true, false, false, false, true),
+  (1, 'This is a rude comment', false, true, true, false, false, false, true),
+  (1, 'This is a rude comment', false, true, true, false, false, false, true),
+  (2, 'This is a rude comment', false, true, true, false, false, false, true),
+  (2, 'This is a rude comment', false, true, true, false, false, false, true),
+  (2, 'This is a rude comment', false, true, true, false, false, false, true),
+  (3, 'This is a rude comment', false, true, true, false, false, false, true),
+  (3, 'This is a rude comment', false, true, true, false, false, false, true),
+  (3, 'This is a rude comment', false, true, true, false, false, false, true),
+  (3, 'This is a rude comment', false, true, true, false, false, false, true),´
+  (3, 'This is a rude comment', false, true, true, false, false, false, true);
 
 
 INSERT INTO
