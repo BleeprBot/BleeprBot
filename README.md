@@ -22,6 +22,8 @@ Deletes expletives and comments deemed uncivil by our Tensor Flow toxicity model
 
 # Resources
 - How to create a Slack app: https://api.slack.com/
+- Bolt.js: a JavaScript framework to build a Slack app: https://github.com/slackapi/bolt-js
+- TensorFlow Toxicity Model: https://github.com/tensorflow/tfjs-models/tree/master/toxicity
 
 # Miro
 We did all of our planning on Miro, feel free to take a look:
