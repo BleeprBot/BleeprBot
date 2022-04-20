@@ -7,10 +7,10 @@
 - Vic Caruso https://www.linkedin.com/in/viccaruso/
 
 # Mission Statement:
-Deletes expletives and comments deemed uncivil from our Tensor flow toxicity model in any Slack channel and sends a message to that user shaming them with a shakespearean insult.
+Deletes expletives and comments deemed uncivil by our Tensor Flow toxicity model in any Slack channel and sends a message to that user shaming them with a Shakespearean insult.
 
 ## Commands: 
-- /leaderboard - returns a ranked count of users with the most violations
+- !leaderboard - returns a ranked count of users with the most violations
 - /violations@username - admin only, returns all violations made that username
 - /promote@username - admin only, promotes another user to admin role
 
