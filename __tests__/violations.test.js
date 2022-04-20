@@ -30,4 +30,24 @@ describe('BleeprBot routes', () => {
       
     expect(res.body).toEqual({ id: expect.any(String), ...violation });
   });
+
+  it('should get list of top 3 violators', async () => {
+    const expected = [
+      {
+        slack_id: expect.any(String),
+        violations_count: expect.any(String)
+      },
+      {
+        slack_id: expect.any(String),
+        violations_count: expect.any(String)
+      },
+      {
+        slack_id: expect.any(String),
+        violations_count: expect.any(String)
+      }
+    ];
+
+    const res = await request(app).get('/api/v1/violations/leaderboard');
+    expect(res.body).toEqual(expected);
+  });
 });
