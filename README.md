@@ -23,3 +23,6 @@ Deletes expletives and comments deemed uncivil from our Tensor flow toxicity mod
 # Resources
 - How to create a Slack app: https://api.slack.com/
 
+# Miro
+We did all of our planning on Miro, feel free to take a look:
+https://miro.com/app/board/uXjVO8hNkDg=/?share_link_id=11633798119 
