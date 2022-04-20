@@ -36,7 +36,7 @@ INSERT INTO users(slack_id, is_admin)
 VALUES 
 ('U03BU14ULTT', true), 
 ('U03BFD3DGNP', true), 
-('U03BHNUGSH2', true);
+('U03BHNUGSH2', false);
 
 INSERT INTO violations(
   user_id,
@@ -59,7 +59,7 @@ VALUES
   (3, 'This is a rude comment', false, true, true, false, false, false, true),
   (3, 'This is a rude comment', false, true, true, false, false, false, true),
   (3, 'This is a rude comment', false, true, true, false, false, false, true),
-  (3, 'This is a rude comment', false, true, true, false, false, false, true),´
+  (3, 'This is a rude comment', false, true, true, false, false, false, true),
   (3, 'This is a rude comment', false, true, true, false, false, false, true);
 
 
