@@ -1,5 +1,8 @@
 # BleeprBot
 
+<img src="https://user-images.githubusercontent.com/89879672/164563214-c6a140e0-fa58-42a3-96c8-12f9c9ce38ee.png"
+     style="height: 200px; width: 200px;" />
+     
 ## DEV Team:
 - Clare McDonald https://www.linkedin.com/in/clare-s-mcdonald/
 - Kyra Christensen https://www.linkedin.com/in/kyra-christensen/
@@ -15,6 +18,7 @@ Deletes expletives and comments deemed uncivil by our Tensor Flow toxicity model
 - !promote @username - admin only, promotes another user to admin role
 - !deleteViolation {violation ID #} - admin only, deletes a violation from a user's violation list
 - !roastMe - returns a Shakespearean insult directed towards that user
+- !devTeam - returns a list of links to the DEV team's github and linkedIn profiles
 
 # Group Agreement
 - Standups: 9:15 in the morning, 15-30mins long.
