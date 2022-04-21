@@ -11,8 +11,8 @@ Deletes expletives and comments deemed uncivil by our Tensor Flow toxicity model
 
 ## Commands: 
 - !leaderboard - returns a ranked count of users with the most violations
-- /violations@username - admin only, returns all violations made that username
-- /promote@username - admin only, promotes another user to admin role
+- !violations @username - admin only, returns all violations made by that username
+- !promote @username - admin only, promotes another user to admin role
 
 # Group Agreement
 - Standups: 9:15 in the morning, 15-30mins long.
