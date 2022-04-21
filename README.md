@@ -13,6 +13,7 @@ Deletes expletives and comments deemed uncivil by our Tensor Flow toxicity model
 - !leaderboard - returns a ranked count of users with the most violations
 - !violations @username - admin only, returns all violations made by that username
 - !promote @username - admin only, promotes another user to admin role
+- !deleteViolation {violation ID #} - admin only, deletes a violation from a user's violation list
 - !roastMe - returns a Shakespearean insult directed towards that user
 
 # Group Agreement
