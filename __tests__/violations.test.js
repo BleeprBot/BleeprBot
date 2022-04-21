@@ -3,9 +3,8 @@ const setup = require('../data/setup');
 const request = require('supertest');
 const app = require('../lib/app');
 const Violation = require('../lib/models/Violation');
-// const Violation = require('../models/Violation');
 
-describe('BleeprBot routes', () => {
+describe('BleeprBot violation routes', () => {
   beforeEach(() => {
     return setup(pool);
   });
