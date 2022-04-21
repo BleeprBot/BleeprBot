@@ -115,4 +115,3 @@ VALUES
     ('wayward', 'toad-spotted', 'vassal'),
     ('weedy', 'unchin-snouted', 'whey-face'),
     ('yeasty', 'weather-bitten', 'wagtail');
-    
