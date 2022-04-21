@@ -3,7 +3,7 @@ const setup = require('../data/setup');
 const request = require('supertest');
 const app = require('../lib/app');
 
-describe('BleeprBot routes', () => {
+describe('BleeprBot insult routes', () => {
   beforeEach(() => {
     return setup(pool);
   });
@@ -17,7 +17,7 @@ describe('BleeprBot routes', () => {
     expect(res.body).toEqual({
       adjective_1: expect.any(String),
       adjective_2: expect.any(String),
-      noun: expect.any(String)
+      noun: expect.any(String),
     });
   });
 });
