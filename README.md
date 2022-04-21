@@ -19,10 +19,11 @@ Deletes expletives and comments deemed uncivil by our Tensor Flow toxicity model
 - !deleteViolation {violation ID #} - admin only, deletes a violation from a user's violation list
 - !roastMe - returns a Shakespearean insult directed towards that user
 - !devTeam - returns a list of links to the DEV team's github and linkedIn profiles
+- !knowledge - returns a list of all the commands this bot uses
 
 # Slack Scopes Needed 
 ### Bot Token Scopes
-channels:history | channels:read | chat:write | commands | groups:history | im:history | mpim:history
+channels:history | channels:read | chat:write | groups:history | im:history | mpim:history
 ### User Token Scopes
 admin | chat:write
 
