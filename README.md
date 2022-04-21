@@ -27,6 +27,8 @@ channels:history | channels:read | chat:write | groups:history | im:history | mp
 ### User Token Scopes
 admin | chat:write
 
+Once you have added the correct scopes you can get the tokens you need from the OAuth & Permissions settings in your app.
+
 # Group Agreement
 - Standups: 9:15 in the morning, 15-30mins long.
 - Take breaks every hour for 15 minutes.
