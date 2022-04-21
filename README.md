@@ -12,13 +12,19 @@
 # Mission Statement:
 Deletes expletives and comments deemed uncivil by our Tensor Flow toxicity model in any Slack channel and sends a message to that user shaming them with a Shakespearean insult.
 
-## Commands: 
+# Bot Commands: 
 - !leaderboard - returns a ranked count of users with the most violations
 - !violations @username - admin only, returns all violations made by that username
 - !promote @username - admin only, promotes another user to admin role
 - !deleteViolation {violation ID #} - admin only, deletes a violation from a user's violation list
 - !roastMe - returns a Shakespearean insult directed towards that user
 - !devTeam - returns a list of links to the DEV team's github and linkedIn profiles
+
+# Slack Scopes Needed 
+### Bot Token Scopes
+channels:history | channels:read | chat:write | commands | groups:history | im:history | mpim:history
+### User Token Scopes
+admin | chat:write
 
 # Group Agreement
 - Standups: 9:15 in the morning, 15-30mins long.
