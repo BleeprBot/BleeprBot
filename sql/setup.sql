@@ -4,7 +4,6 @@
 DROP TABLE IF EXISTS users CASCADE;
 DROP TABLE IF EXISTS violations;
 DROP TABLE IF EXISTS insults;
-DROP TABLE IF EXISTS intros;
 
 CREATE TABLE users (
     id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
@@ -32,16 +31,6 @@ CREATE TABLE insults (
     adjective_2 TEXT NOT NULL,
     noun TEXT NOT NULL
 );
-
--- CREATE TABLE intros(
---     id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
---     intro TEXT NOT NULL
--- );
-
--- CREATE TABLE intros_insults (
---     intro_id BIGINT REFERENCES intros (id),
---     insult_id BIGINT REFERENCES insults (id)
--- );
 
 INSERT INTO users(slack_id, is_admin)
 VALUES 
@@ -126,11 +115,3 @@ VALUES
     ('wayward', 'toad-spotted', 'vassal'),
     ('weedy', 'unchin-snouted', 'whey-face'),
     ('yeasty', 'weather-bitten', 'wagtail');
-
--- INSERT INTO
---     intros(intro)
--- VALUES
---     ('Watch thy mouth'),
---     ('Away with you'),
---     ('God save thee'),
---     ('How dost thou speaketh such filth');
