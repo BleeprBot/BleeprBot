@@ -50,4 +50,43 @@ describe('BleeprBot routes', () => {
     const res = await request(app).get('/api/v1/violations/leaderboard');
     expect(res.body).toEqual(expected);
   });
+  
+  it('should list a specific users violations', async () => {
+    const response = await request(app).get('/api/v1/violations/U03BU14ULTT');
+    
+    expect(response.body).toEqual([{
+      id: expect.any(String),
+      user_id: '1',
+      comment: 'This is a rude comment',
+      identity_attack: false,
+      insult: true,
+      obscene: true,
+      severe_toxicity: false,
+      sexually_explicit: false,
+      threat: false,
+      toxicity: true,
+    }, {
+      id: expect.any(String),
+      user_id: '1',
+      comment: 'This is a rude comment',
+      identity_attack: false,
+      insult: true,
+      obscene: true,
+      severe_toxicity: false,
+      sexually_explicit: false,
+      threat: false,
+      toxicity: true,
+    }, {
+      id: expect.any(String),
+      user_id: '1',
+      comment: 'This is a rude comment',
+      identity_attack: false,
+      insult: true,
+      obscene: true,
+      severe_toxicity: false,
+      sexually_explicit: false,
+      threat: false,
+      toxicity: true,
+    }]);
+  });
 });
