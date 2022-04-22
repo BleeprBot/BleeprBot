@@ -58,7 +58,7 @@ describe('BleeprBot violation routes', () => {
       {
         id: expect.any(String),
         user_id: '1',
-        comment: 'This is a rude comment',
+        comment: 'Wow, you really suck sometimes.',
         identity_attack: false,
         insult: true,
         obscene: true,
@@ -70,7 +70,7 @@ describe('BleeprBot violation routes', () => {
       {
         id: expect.any(String),
         user_id: '1',
-        comment: 'This is a rude comment',
+        comment: 'Again, you\'re dumb',
         identity_attack: false,
         insult: true,
         obscene: true,
@@ -82,7 +82,7 @@ describe('BleeprBot violation routes', () => {
       {
         id: expect.any(String),
         user_id: '1',
-        comment: 'This is a rude comment',
+        comment: 'I\'m sick and tired of your crap.',
         identity_attack: false,
         insult: true,
         obscene: true,
