@@ -50,17 +50,17 @@ INSERT INTO violations(
   toxicity
 )
 VALUES
-  (1, 'This is a rude comment', false, true, true, false, false, false, true),
-  (1, 'This is a rude comment', false, true, true, false, false, false, true),
-  (1, 'This is a rude comment', false, true, true, false, false, false, true),
-  (2, 'This is a rude comment', false, true, true, false, false, false, true),
-  (2, 'This is a rude comment', false, true, true, false, false, false, true),
-  (2, 'This is a rude comment', false, true, true, false, false, false, true),
-  (3, 'This is a rude comment', false, true, true, false, false, false, true),
-  (3, 'This is a rude comment', false, true, true, false, false, false, true),
-  (3, 'This is a rude comment', false, true, true, false, false, false, true),
-  (3, 'This is a rude comment', false, true, true, false, false, false, true),
-  (3, 'This is a rude comment', false, true, true, false, false, false, true);
+  (1, 'Wow, you really suck sometimes.', false, true, true, false, false, false, true),
+  (1, 'Again, you''re dumb', false, true, true, false, false, false, true),
+  (1, 'I''m sick and tired of your crap.', false, true, true, false, false, false, true),
+  (2, 'You are a terrible person.', false, true, true, false, false, false, true),
+  (2, 'Moron', false, true, true, false, false, false, true),
+  (2, 'I''m so fucking tired.', false, true, true, false, false, false, true),
+  (3, 'This shit is confusing.', false, true, true, false, false, false, true),
+  (3, 'Stupid idiot', false, true, true, false, false, false, true),
+  (3, 'This bitch really just pushed code during our presentation', false, true, true, false, false, false, true),
+  (3, 'What a stupid person', false, true, true, false, false, false, true),
+  (3, 'I wish you were dead', false, true, true, false, false, false, true);
 
 
 INSERT INTO
