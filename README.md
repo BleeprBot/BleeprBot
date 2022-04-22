@@ -2,7 +2,7 @@
 
 <img src="https://user-images.githubusercontent.com/89879672/164563214-c6a140e0-fa58-42a3-96c8-12f9c9ce38ee.png"
      style="height: 200px; width: 200px;" />
-     
+     <a href="https://www.flaticon.com/free-icons/monster" title="monster icons">Monster icons created by Smashicons - Flaticon</a>
 ## DEV Team:
 - Clare McDonald https://www.linkedin.com/in/clare-s-mcdonald/
 - Kyra Christensen https://www.linkedin.com/in/kyra-christensen/
