@@ -49,6 +49,7 @@ INSERT INTO violations(
   threat,
   toxicity
 )
+
 VALUES
   (1, 'Wow, you really suck sometimes.', false, true, true, false, false, false, true),
   (1, 'Again, you''re dumb', false, true, true, false, false, false, true),
